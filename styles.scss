@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 290px;
+    background-image: url(/images/image-victor.jpg);
+    background-size: contain;
+    border: 4px solid white;
+}
+
+.card {
+  width: 340px;
+  height: 350px;
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 340px;
+  grid-template-rows: 120px 130px 100px;
+  grid-area: "bg" "name" "stats";
+  border-radius: 20px;
+}
+
+.top-bg {
+    background-image: url(/images/bg-pattern-card.svg);
+    background-size: contain;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.name {
+    grid-area: "name";
+    background-color: white;
+    font-size: 18px;
+}
+
+.stats {
+    font-size: 18px;
+}
+

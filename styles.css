@@ -18,6 +18,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: #19a2ae;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .circle {
@@ -53,13 +54,48 @@ body {
   border-top-right-radius: 20px;
 }
 
-.name {
+.info {
   grid-area: "name";
+  background-color: white;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.info .name {
+  margin: 20px 0px;
+  position: relative;
+  top: 10px;
+}
+
+.info .name .age {
+  color: #969696;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.info .location {
+  color: #969696;
+  font-weight: 400;
+}
+
+.stats {
   background-color: white;
   font-size: 18px;
 }
 
-.stats {
-  font-size: 18px;
+.stats .span {
+  color: #6a6f81;
 }
 /*# sourceMappingURL=styles.css.map */

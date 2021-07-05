@@ -12,6 +12,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 
 .attribution a {
@@ -114,34 +115,40 @@ section {
   letter-spacing: 2px;
 }
 
+.circles {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: absolute;
+}
+
 .circles .top,
 .circles .bottom {
   width: 500px;
+  position: absolute;
 }
 
 .circles .top {
-  position: absolute;
   top: -250px;
-  left: -275px;
+  left: -300px;
 }
 
 .circles .bottom {
-  position: absolute;
   bottom: -210px;
   right: -300px;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1000px) {
   .circles .top, .circles .bottom {
     width: 1000px;
   }
   .circles .top {
-    top: -300px;
-    left: -300px;
+    top: -400px;
+    left: -275px;
   }
   .circles .bottom {
-    bottom: -210px;
-    right: -300px;
+    bottom: -500px;
+    right: -200px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

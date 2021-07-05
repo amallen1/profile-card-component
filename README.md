@@ -31,11 +31,10 @@ This challenge was done without access to the design files and rather by estimat
 ### Screenshot
 
 Mobile Version:
-<img src="/images/mobile-design.png" width="300"/>
-FIX DIS
+<img src="/design/mobile-design.jpg" width="300"/>
 
 Desktop Version:
-<img src="/images/desktop-design.png" width="500">
+<img src="/design/desktop-design.jpg" width="500">
 
 
 ### Links

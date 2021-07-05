@@ -10,31 +10,40 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-
     <title>Frontend Mentor | Profile card component</title>
   </head>
   <body>
-    <div class="circle"></div>
-    <div class="card">
-      <div class="top-bg"></div>
+    <div class="circles">
+      <img class="top" src="/images/bg-pattern-top.svg" alt="top circle" />
+      <img class="bottom" src="/images/bg-pattern-bottom.svg" alt="bottom circle" />
+    </div>
+    <section>
+      <div class="card-container">
+        <img
+          class="card-bg-image"
+          src="/images/bg-pattern-card.svg"
+          alt="background circles"
+        />
+        <div class="profile-pic"></div>
 
-      <div class="info">
-        <h4 class="name">Victor Crest <span class="age">26</span></h4>
-        <h5 class="location">London</h5>
-      </div>
-      
+        <div class="info">
+          <h4 class="name">Victor Crest <span class="age">26</span></h4>
+          <h5 class="location">London</h5>
+        </div>
 
-      <div class="stats">
-        <p class="stat-1">80K <span>Followers</span></p>
-        <p class="stat-2">803K <span>Likes</span></p>
-        <p class="stat-3">1.4K <span>Photos</span></p>
+        <div class="stats">
+          <p class="stat">80K <span>followers</span></p>
+          <p class="stat">803K <span>likes</span></p>
+          <p class="stat">1.4K <span>photos</span></p>
+        </div>
       </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Aniya Allen</a>.
     </div>
   </body>
 </html>

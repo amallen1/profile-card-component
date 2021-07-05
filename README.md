@@ -39,8 +39,8 @@ Desktop Version:
 
 ### Links
 
-- Solution URL: [https://github.com/amallen1/preview-card-component]
-- Live Site URL: [https://friendly-haibt-d2d7fc.netlify.app/]
+- Solution URL: [https://github.com/amallen1/profile-card-component]
+- Live Site URL: [https://clever-pare-7ce12e.netlify.app/]
 
 
 ## My process
